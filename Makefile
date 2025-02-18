@@ -9,7 +9,7 @@ format:
 
 lint:
 	# check for syntax using tools e.g. flake8 or pylint
-	pylint --disable=R,C hello.py
+	pylint --disable=R,C mylib/*.py
 
 test:
 	python -m pytest -vv test_hello.py
